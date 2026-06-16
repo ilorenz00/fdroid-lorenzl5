@@ -9,6 +9,9 @@ https://ilorenz00.github.io/fdroid-lorenzl5/repo
 
 Every app added here shows up automatically — no new source needed per app.
 
+📖 **Volle Doku:** [`docs/`](docs/README.md) — Release-Pipeline, Cluster/API,
+die Share-Router-App und die lokale Toolchain.
+
 ## How it works
 
 - Each app repo builds a **signed release APK** in its own CI and publishes it
