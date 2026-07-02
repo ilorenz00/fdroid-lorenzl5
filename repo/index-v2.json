@@ -1,0 +1,94 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "lorenzl5 Apps"
+    },
+    "description": {
+      "en-US": "Personal F-Droid repo serving all lorenzl5 Android apps (Share Router, ...). Built from the latest GitHub release of each app repository."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "88193846460ac6e761ac38c4f583444cde9ce8eaa5d2a21e2036b983156f92c0",
+        "size": 205
+      }
+    },
+    "address": "https://ilorenz00.github.io/fdroid-lorenzl5/repo",
+    "timestamp": 1783033022000
+  },
+  "packages": {
+    "com.lorenzl5.sharerouter": {
+      "metadata": {
+        "added": 1783033022000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1783033022000,
+        "name": {
+          "en-US": "Share Router"
+        },
+        "preferredSigner": "7453e1fb811e4316d8fdaf1279f5fdfff50a2e9171454111063a265e27d35668"
+      },
+      "versions": {
+        "99b81f32eb291ef868d0c53bab9358d556524ea91f1cb1e5b684cfb23f53a53d": {
+          "added": 1783033022000,
+          "file": {
+            "name": "/sharerouter_15.apk",
+            "sha256": "99b81f32eb291ef868d0c53bab9358d556524ea91f1cb1e5b684cfb23f53a53d",
+            "size": 12676033
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.1.15",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7453e1fb811e4316d8fdaf1279f5fdfff50a2e9171454111063a265e27d35668"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.lorenzl5.sharerouter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

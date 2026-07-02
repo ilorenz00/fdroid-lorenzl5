@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="lorenzl5 Apps" pubkey="308204e5308202cda00302010202084d479f5f9cf04b5f300d06092a864886f70d01010c05003020311e301c060355040313156c6f72656e7a6c3520536861726520526f757465723020170d3236303631313134313230305a180f32303533313032373134313230305a3020311e301c060355040313156c6f72656e7a6c3520536861726520526f7574657230820222300d06092a864886f70d01010105000382020f003082020a0282020100ca2d9a02d64251d2492607549f68f10bba3e54c5db5d38b2ba9bc8e0c17bf67e586ea4c78487dd1e0e3b262612902090534d772ed2d5f42e7ebff678a49148ff40cd4d53565847659a4ea0e2ded6c7095d699572763d44cf188e97eb501e80b55796a9be49da3a29c6c5e3baa2332c58423b6c8747d9049f8627cf00e9f9496a01cad1f07bb04b379aa78eaaea4ce87ce233da9c0855f28871bd2d2e0790867b0ba753afe9c15de64dc431527c34e2881990371772ff1680dad2c618770fc6f0c9797a07762d449c506d333e188e18a79b3f5c5fe0adfcbed3ec673780588b50999c6d8dabce772ac8037a06835347e8a8ab09d267e43370a37f0d4e565697601866039b974c5326eccfde1264d1519c65302a341f264be2f06213002035ec3dccf1c29ee85ab7a361cd63200c1b5bdd9bc304a4a6a3c372180b43ee51e776251d166d7fdf299d75696742412ecd7fd7268e47551c781f1b64c737921f5359a220ce07406a540caff1b1e33c2a95450d80546a5915e61313db4b115088f4da5cecfb61dd77c59dcd6b3a2ac815187790c6bf742153539c84f8e5d8f73ed3d5dc238de5e2c40d1e6eac14171e290cc3b0be3f2cb071094daf20030372fb82a63f1a09477fa03e669bf8580851b73cc3e44be94582cb7deeb602afab3cb159ac2667bd27e3874a073341fa58e21e0fb76a9a9fc941edb570c639797c5a8a0a5f0b0203010001a321301f301d0603551d0e041604140f61f3c64eeb348f276918b6d2b7cbdc67e1e817300d06092a864886f70d01010c05000382020100173e2a5a0c616e8252625d2a846eaf2de5a5194f6109d782a000de7d45d1c5bc01bcc123b64ccc74511a6de7cc262eead6d3e9d2e2a5ad6145c1244d7c6497c7c358a269ff0e6d2ebfc057696d54ac88d086c54cc70fa9784e513e1e1ff944c1c48f9ece793fc8ce5466bb150a3481cba5a6e76f751dc4239b347a99fc8aeb0d1ba24f9c2b8154442a34ca848252c70d63a05dd02883e975a4171c95f274f59cd1af0be57b19a6c2922fefa57b0459348422f305bd39e1eb7c7e94c33fe24ec420de7a836f24870819e03543a9b4acd852fa51e0da87044dd76c3b486effdd20fddbbf3a8b0dba57e8b40dfc7ea2157f164e2d22434aea1f2c25f4c6da71d431992076f8774d7029e647027ca8ee9fbbaa3e41afe5f503f0f9ed821b14dfd233c7272e3e60799c4723dccbe7001ba604ecdb6066723c1bc57cbf23a4b51182cb8c3165717e91ee521fbf1cf43eb7f33c2f28298dc739a1a3361dab132b76c7f1577e62a7eef37f653cf93f063ee16f28810ec649c14c244660d25f610fcc66025d74c03061c8c0005bc621f2a4dbb0b4b30d2b7063eecd60eb4e386b9ca51807c8008f46eb7b0642d8d6581d98ba70627da5857d9c522327fb5601833d2f92e43b419e3614243ed198c4956ac2086cb266b51e5ef3431cd2a3725c7d551f460723ce3833bc490523195975969e5b7013dd5c9dd012b6ba6eddeefff829d241e8" timestamp="1783033022" url="https://ilorenz00.github.io/fdroid-lorenzl5/repo" version="20002">
+		<description>Personal F-Droid repo serving all lorenzl5 Android apps (Share Router, ...). Built from the latest GitHub release of each app repository.</description>
+	</repo>
+	<application id="com.lorenzl5.sharerouter">
+		<id>com.lorenzl5.sharerouter</id>
+		<added>2026-07-02</added>
+		<lastupdated>2026-07-02</lastupdated>
+		<name>Share Router</name>
+		<summary></summary>
+		<desc>No description available</desc>
+		<license>Unknown</license>
+		<categories>fdroid</categories>
+		<category>fdroid</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<marketversion></marketversion>
+		<marketvercode>2147483647</marketvercode>
+		<package>
+			<version>0.1.15</version>
+			<versioncode>15</versioncode>
+			<apkname>sharerouter_15.apk</apkname>
+			<hash type="sha256">99b81f32eb291ef868d0c53bab9358d556524ea91f1cb1e5b684cfb23f53a53d</hash>
+			<size>12676033</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-07-02</added>
+			<sig>30939adfbbac4a77703cffae6cd6dc17</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.lorenzl5.sharerouter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="28" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>

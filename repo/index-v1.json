@@ -1,0 +1,89 @@
+{
+  "repo": {
+    "timestamp": 1783033022000,
+    "version": 20002,
+    "name": "lorenzl5 Apps",
+    "icon": "icon.png",
+    "address": "https://ilorenz00.github.io/fdroid-lorenzl5/repo",
+    "description": "Personal F-Droid repo serving all lorenzl5 Android apps (Share Router, ...). Built from the latest GitHub release of each app repository."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "categories": [
+        "fdroid"
+      ],
+      "suggestedVersionCode": "2147483647",
+      "license": "Unknown",
+      "name": "Share Router",
+      "added": 1783033022000,
+      "packageName": "com.lorenzl5.sharerouter",
+      "lastUpdated": 1783033022000
+    }
+  ],
+  "packages": {
+    "com.lorenzl5.sharerouter": [
+      {
+        "added": 1783033022000,
+        "apkName": "sharerouter_15.apk",
+        "hash": "99b81f32eb291ef868d0c53bab9358d556524ea91f1cb1e5b684cfb23f53a53d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lorenzl5.sharerouter",
+        "sig": "30939adfbbac4a77703cffae6cd6dc17",
+        "signer": "7453e1fb811e4316d8fdaf1279f5fdfff50a2e9171454111063a265e27d35668",
+        "size": 12676033,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.lorenzl5.sharerouter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "0.1.15"
+      }
+    ]
+  }
+}
