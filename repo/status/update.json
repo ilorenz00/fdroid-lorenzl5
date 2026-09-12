@@ -1,0 +1,27 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.5 LTS",
+  "antiFeatures": {},
+  "apksigner": "/usr/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/usr/bin/fdroid update",
+    "--create-metadata",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1789239107282,
+  "failedBuilds": {},
+  "jarsigner": "/usr/bin/jarsigner",
+  "keytool": "/usr/bin/keytool",
+  "needsUpdate": [
+    "com.lorenzl5.sharerouter"
+  ],
+  "noPackages": [
+    "com.lorenzl5.sharerouter"
+  ],
+  "noUpdateCheck": [
+    "com.lorenzl5.sharerouter"
+  ],
+  "startTimestamp": 1789239101000,
+  "subcommand": "update"
+}
